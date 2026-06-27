@@ -27,31 +27,31 @@ docker run -it --rm lacledeslan/gamesvr-cs2d-freeplay ./ll-tests/gamesvr-cs2d-fr
 ### Start Standard (Defusal) Server
 
 ```shell
-docker run -it --net=host lacledeslan/gamesvr-cs2d-freeplay ./cs2d_dedicated +sv_gamemode 0 +map de_dust
+docker run -it --net=host lacledeslan/gamesvr-cs2d-freeplay ./cs2d_dedicated +sv_gamemode 0 -map de_dust
 ```
 
 ### Start Deathmatch Server
 
 ```shell
-docker run -it --net=host lacledeslan/gamesvr-cs2d-freeplay ./cs2d_dedicated +sv_gamemode 1 +map aim_ak-colt
+docker run -it --net=host lacledeslan/gamesvr-cs2d-freeplay ./cs2d_dedicated +sv_gamemode 1 -map aim_ak-colt
 ```
 
 ### Start Team Deathmatch Server
 
 ```shell
-docker run -it --net=host lacledeslan/gamesvr-cs2d-freeplay ./cs2d_dedicated +sv_gamemode 2 +map de_dust2
+docker run -it --net=host lacledeslan/gamesvr-cs2d-freeplay ./cs2d_dedicated +sv_gamemode 2 -map de_dust2
 ```
 
 ### Start Construction Mode Server
 
 ```shell
-docker run -it --net=host lacledeslan/gamesvr-cs2d-freeplay ./cs2d_dedicated +sv_gamemode 3 +map cs_assault
+docker run -it --net=host lacledeslan/gamesvr-cs2d-freeplay ./cs2d_dedicated +sv_gamemode 3 -map cs_assault
 ```
 
 ### Start Zombie Mode Server
 
 ```shell
-docker run -it --net=host lacledeslan/gamesvr-cs2d-freeplay ./cs2d_dedicated +sv_gamemode 4 +map zm_cross
+docker run -it --net=host lacledeslan/gamesvr-cs2d-freeplay ./cs2d_dedicated +sv_gamemode 4 -map zm_cross
 ```
 
 ## Getting Started with Game Servers in Docker
