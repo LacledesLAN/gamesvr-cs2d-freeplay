@@ -1,5 +1,7 @@
 # Laclede's LAN Dedicated CS2D Freeplay Server
 
+![Laclede's LAN CS2D Freeplay Server](https://raw.githubusercontent.com/LacledesLAN/gamesvr-cs2d-freeplay/refs/heads/main/.documentation/thumb-cs2d-freeplay.png "Laclede's LAN CS2D Freeplay Server")
+
 This repository is maintained by [Laclede's LAN](https://lacledeslan.com). Its contents are heavily tailored and tweaked
 for use at our charity LAN-Parties. For third-parties we recommend using this repo only as a reference example and then
 building your own using [gamesvr-cs2d](https://github.com/LacledesLAN/gamesvr-cs2d) as the base image for your
