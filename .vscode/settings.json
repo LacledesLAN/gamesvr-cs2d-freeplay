@@ -1,0 +1,31 @@
+{
+    "cSpell.words": [
+        "blackmesa",
+        "deathmatch",
+        "dockerhub",
+        "freeplay",
+        "gamesvr",
+        "Laclede's",
+        "Laclede’s",
+        "lacledeslan",
+        "lambdabunker",
+        "maxplayers",
+        "mp",
+        "run",
+        "srcds",
+        "stalkyard",
+        "subtransit",
+        "teamplay"
+    ],
+    "terminal.integrated.scrollback": 2500,
+    "[markdown]": {
+        "editor.rulers": [120],
+        "editor.unicodeHighlight.ambiguousCharacters": true,
+        "editor.unicodeHighlight.invisibleCharacters": true,
+        "editor.wordWrap": "on"
+    },
+    "[shellscript]": {
+        "editor.rulers": [100],
+        "files.eol": "\n"
+    }
+}
