@@ -51,7 +51,7 @@ docker run -it --net=host lacledeslan/gamesvr-cs2d-freeplay ./cs2d_dedicated +sv
 ### Start Zombie Mode Server
 
 ```shell
-docker run -it --net=host lacledeslan/gamesvr-cs2d-freeplay ./cs2d_dedicated +sv_gamemode 4 -map zm_cross
+docker run -it --net=host lacledeslan/gamesvr-cs2d-freeplay ./cs2d_dedicated +sv_gamemode 4 -map zm_street
 ```
 
 ## Getting Started with Game Servers in Docker
