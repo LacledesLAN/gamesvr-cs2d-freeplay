@@ -16,7 +16,7 @@ COPY --chown=CS2D:root ./dist /app
 
 # UPDATE USERNAME & ensure permissions
 RUN usermod -l CS2DFreeplay CS2D &&\
-    chmod +x /app/ll-tests/gamesvr-cs2d.sh;
+    chmod +x /app/ll-tests/gamesvr-cs2d-freeplay.sh;
 
 USER CS2DFreeplay
 
