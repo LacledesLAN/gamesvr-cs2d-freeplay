@@ -1,16 +1,14 @@
 FROM lacledeslan/gamesvr-cs2d
+ARG BUILD_NODE=unspecified
+ARG GIT_REVISION=unspecified
 
-ARG BUILDNODE="unspecified"
-ARG SOURCE_COMMIT
-
-LABEL maintainer="Laclede's LAN <contact @lacledeslan.com>" \
-      com.lacledeslan.build-node=$BUILDNODE \
-      org.label-schema.schema-version="1.0" \
-      org.label-schema.url="https://github.com/LacledesLAN/README.1ST" \
-      org.label-schema.vcs-ref=$SOURCE_COMMIT \
-      org.label-schema.vendor="Laclede's LAN" \
-      org.label-schema.description="Laclede's LAN CS2D Freeplay Dedicated Server" \
-      org.label-schema.vcs-url="https://github.com/LacledesLAN/gamesvr-cs2d-freeplay"
+LABEL architecture="amd64" \
+    com.lacledeslan.build-node="$BUILD_NODE" \
+    maintainer="Laclede's LAN <contact@lacledeslan.com>" \
+    org.opencontainers.image.description="Laclede's LAN CS2D Freeplay Dedicated Server" \
+    org.opencontainers.image.revision="$GIT_REVISION" \
+    org.opencontainers.image.source="https://github.com/LacledesLAN/gamesvr-cs2d-freeplay" \
+    org.opencontainers.image.vendor="Laclede's LAN"
 
 COPY --chown=CS2D:root ./dist /app
 
